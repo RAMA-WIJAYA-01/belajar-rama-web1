@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar CSS - 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Rama Wijaya</div>
+      <ul class="nav">
+        <li><a href="#banner" class="nav-items">Home</a></li>
+        <li><a href="#keunggulan" class="nav-items">keunggulan</a></li>
+        <li><a href="#about" class="nav-items">About</a></li>
+        <li><a href="#skill" class="nav-items">Skill</a></li>
+        <li><a href="#contact" class="nav-items">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </header>
+    <!-- Banner -->
+    <section class="banner" id="banner">
+      <h4>Selamat Datang di Web</h4>
+      <h1>Rama Wijaya</h1>
+      <p>Ini adalah web untuk kita belajar web bersama</p>
+    </section>
+
+    <section class="keunggulan" id="keunggulan">
+      <div class="keunggulan-item">
+        <h4>Muda</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="keunggulan-item">
+        <h4>Pintar</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="keunggulan-item">
+        <h4>Handsome</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="keunggulan-item">
+        <h4>Pendek</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>  
+    </section>
+    <!-- <h1>Ini halaman Home</h1> -->
+
+    <!-- Abaut -->
+    <section class="about" id="about">
+        <img src="img/pp-wa-kucing1.jpg" alt="rama wijaya">
+        <div class="text-about">
+            <h2>Tentang saya</h2>
+            <p>
+                Saya adalah seorang mahasiswa universitas
+                Teknokrat Indonesia mengambil jurusan informasi
+                Fakultas teknik dan ilmu komputer
+            </p>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section class="skill" id="skill">
+        <h2>Skill Saya</h2>
+        <p class="deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quibusdam, quasi impedit, iste eum enim, quaerat mollitia illum quis assumenda odio</p>
+        <div class="skill-container">
+            <div class="skill-items">
+                <img src="img/flutter.png" alt="404">
+                <p>FLUTTER</p>
+            </div>
+            <divs class="skill-items">
+                <img src="img/c++.png" alt="">
+                <p>C++</p>
+            </divs>
+            <div class="skill-items">
+                <img src="img/SM2.jpg" alt="404">
+                <p>ANALISIS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <h2>Kontak Saya</h2>
+          <p class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam ut ipsa maiores nemo autem rem doloribus
+          </p>
+            <form>
+              <div class="form-group">
+                <label>Nama</label>
+                <input type="text" class="form-control" placeholder="Masukkan Nama">
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Masukkan Email">
+              </div>
+              <div class="form-group">
+                <label>Pesan</label>
+                <textarea type="form-control" rows="5" placeholder="Masukkan pesan"></textarea>
+              </div>
+              <button class="submit">Kirim</button>
+            </form>
+    </section>
+
+    <footer>
+      <div class="top">
+        <h1>Rama Wijaya</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum error ipsam</p>
+      </div>
+      <p>&copy;2023 copyright. all right reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
